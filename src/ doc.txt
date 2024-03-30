@@ -1,0 +1,15 @@
+Motive
+Generate password based on inputs given by the User
+
+Inputs
+1. Length - int
+2. uppercase letters - boolean - 65 to 90
+3. lowercase letters - boolean - 97 to 122
+4. special characters  - $,&,*,/,?,@ - boolean - 36,38,42,47,63,64
+5. numeric digits - boolean - 48 to 57
+
+
+public static final String UPPERCASE_LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+public static final String LOWERCASE_LETTERS = "abcdefghijklmnopqrstuvwxyz";
+public static final String NUMBERS = "0123456789";
+public static final String SYMBOLS = "!@#$";
